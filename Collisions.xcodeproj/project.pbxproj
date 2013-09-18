@@ -16,25 +16,16 @@
 		39A3676317EA579500DE09FD /* DAWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A3676217EA579500DE09FD /* DAWAppDelegate.m */; };
 		39A3676617EA579500DE09FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A3676417EA579500DE09FD /* Main.storyboard */; };
 		39A3676917EA579500DE09FD /* DAWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A3676817EA579500DE09FD /* DAWViewController.m */; };
-		39A3676C17EA579500DE09FD /* DAWMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A3676B17EA579500DE09FD /* DAWMyScene.m */; };
-		39A3676E17EA579500DE09FD /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A3676D17EA579500DE09FD /* Spaceship.png */; };
 		39A3677017EA579500DE09FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A3676F17EA579500DE09FD /* Images.xcassets */; };
-		39A3677717EA579500DE09FD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A3677617EA579500DE09FD /* XCTest.framework */; };
-		39A3677817EA579500DE09FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A3675017EA579500DE09FD /* Foundation.framework */; };
-		39A3677917EA579500DE09FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A3675417EA579500DE09FD /* UIKit.framework */; };
-		39A3678117EA579500DE09FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39A3677F17EA579500DE09FD /* InfoPlist.strings */; };
-		39A3678317EA579500DE09FD /* CollisionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A3678217EA579500DE09FD /* CollisionsTests.m */; };
+		39A3679117EA57FD00DE09FD /* exhaust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39A3678C17EA57FD00DE09FD /* exhaust.sks */; };
+		39A3679217EA57FD00DE09FD /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39A3678D17EA57FD00DE09FD /* explosion.sks */; };
+		39A3679317EA57FD00DE09FD /* missile.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39A3678E17EA57FD00DE09FD /* missile.sks */; };
+		39A3679417EA57FD00DE09FD /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A3678F17EA57FD00DE09FD /* spaceship.png */; };
+		39A3679517EA57FD00DE09FD /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A3679017EA57FD00DE09FD /* spark.png */; };
+		39A3679B17EA584800DE09FD /* APLShipSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A3679817EA584800DE09FD /* APLShipSprite.m */; };
+		39A3679C17EA584800DE09FD /* APLSpaceScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A3679A17EA584800DE09FD /* APLSpaceScene.m */; };
+		39A367A017EA6DD500DE09FD /* damage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39A3679F17EA6DD500DE09FD /* damage.sks */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		39A3677A17EA579500DE09FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39A3674517EA579500DE09FD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 39A3674C17EA579500DE09FD;
-			remoteInfo = Collisions;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		39A3674D17EA579500DE09FD /* Collisions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collisions.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,15 +42,18 @@
 		39A3676517EA579500DE09FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39A3676717EA579500DE09FD /* DAWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAWViewController.h; sourceTree = "<group>"; };
 		39A3676817EA579500DE09FD /* DAWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAWViewController.m; sourceTree = "<group>"; };
-		39A3676A17EA579500DE09FD /* DAWMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAWMyScene.h; sourceTree = "<group>"; };
-		39A3676B17EA579500DE09FD /* DAWMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAWMyScene.m; sourceTree = "<group>"; };
-		39A3676D17EA579500DE09FD /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		39A3676F17EA579500DE09FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		39A3677517EA579500DE09FD /* CollisionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollisionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A3677617EA579500DE09FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		39A3677E17EA579500DE09FD /* CollisionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollisionsTests-Info.plist"; sourceTree = "<group>"; };
-		39A3678017EA579500DE09FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		39A3678217EA579500DE09FD /* CollisionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollisionsTests.m; sourceTree = "<group>"; };
+		39A3678C17EA57FD00DE09FD /* exhaust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = exhaust.sks; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/exhaust.sks"; sourceTree = "<group>"; };
+		39A3678D17EA57FD00DE09FD /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = explosion.sks; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/explosion.sks"; sourceTree = "<group>"; };
+		39A3678E17EA57FD00DE09FD /* missile.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = missile.sks; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/missile.sks"; sourceTree = "<group>"; };
+		39A3678F17EA57FD00DE09FD /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spaceship.png; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/spaceship.png"; sourceTree = "<group>"; };
+		39A3679017EA57FD00DE09FD /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/spark.png"; sourceTree = "<group>"; };
+		39A3679717EA584800DE09FD /* APLShipSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLShipSprite.h; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/APLShipSprite.h"; sourceTree = "<group>"; };
+		39A3679817EA584800DE09FD /* APLShipSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLShipSprite.m; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/APLShipSprite.m"; sourceTree = "<group>"; };
+		39A3679917EA584800DE09FD /* APLSpaceScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLSpaceScene.h; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/APLSpaceScene.h"; sourceTree = "<group>"; };
+		39A3679A17EA584800DE09FD /* APLSpaceScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLSpaceScene.m; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/APLSpaceScene.m"; sourceTree = "<group>"; };
+		39A3679F17EA6DD500DE09FD /* damage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = damage.sks; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/damage.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,16 +68,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39A3677217EA579500DE09FD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39A3677717EA579500DE09FD /* XCTest.framework in Frameworks */,
-				39A3677917EA579500DE09FD /* UIKit.framework in Frameworks */,
-				39A3677817EA579500DE09FD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				39A3675817EA579500DE09FD /* Collisions */,
-				39A3677C17EA579500DE09FD /* CollisionsTests */,
+				39A3679D17EA584F00DE09FD /* Physics Collisions */,
 				39A3674F17EA579500DE09FD /* Frameworks */,
 				39A3674E17EA579500DE09FD /* Products */,
 			);
@@ -101,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				39A3674D17EA579500DE09FD /* Collisions.app */,
-				39A3677517EA579500DE09FD /* CollisionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,9 +109,6 @@
 				39A3676417EA579500DE09FD /* Main.storyboard */,
 				39A3676717EA579500DE09FD /* DAWViewController.h */,
 				39A3676817EA579500DE09FD /* DAWViewController.m */,
-				39A3676A17EA579500DE09FD /* DAWMyScene.h */,
-				39A3676B17EA579500DE09FD /* DAWMyScene.m */,
-				39A3676D17EA579500DE09FD /* Spaceship.png */,
 				39A3676F17EA579500DE09FD /* Images.xcassets */,
 				39A3675917EA579500DE09FD /* Supporting Files */,
 			);
@@ -146,22 +126,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		39A3677C17EA579500DE09FD /* CollisionsTests */ = {
+		39A3679617EA580600DE09FD /* Art */ = {
 			isa = PBXGroup;
 			children = (
-				39A3678217EA579500DE09FD /* CollisionsTests.m */,
-				39A3677D17EA579500DE09FD /* Supporting Files */,
+				39A3679F17EA6DD500DE09FD /* damage.sks */,
+				39A3678C17EA57FD00DE09FD /* exhaust.sks */,
+				39A3678D17EA57FD00DE09FD /* explosion.sks */,
+				39A3678E17EA57FD00DE09FD /* missile.sks */,
+				39A3678F17EA57FD00DE09FD /* spaceship.png */,
+				39A3679017EA57FD00DE09FD /* spark.png */,
 			);
-			path = CollisionsTests;
+			name = Art;
 			sourceTree = "<group>";
 		};
-		39A3677D17EA579500DE09FD /* Supporting Files */ = {
+		39A3679D17EA584F00DE09FD /* Physics Collisions */ = {
 			isa = PBXGroup;
 			children = (
-				39A3677E17EA579500DE09FD /* CollisionsTests-Info.plist */,
-				39A3677F17EA579500DE09FD /* InfoPlist.strings */,
+				39A3679917EA584800DE09FD /* APLSpaceScene.h */,
+				39A3679A17EA584800DE09FD /* APLSpaceScene.m */,
+				39A3679717EA584800DE09FD /* APLShipSprite.h */,
+				39A3679817EA584800DE09FD /* APLShipSprite.m */,
+				39A3679617EA580600DE09FD /* Art */,
 			);
-			name = "Supporting Files";
+			name = "Physics Collisions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,24 +171,6 @@
 			productReference = 39A3674D17EA579500DE09FD /* Collisions.app */;
 			productType = "com.apple.product-type.application";
 		};
-		39A3677417EA579500DE09FD /* CollisionsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39A3678917EA579500DE09FD /* Build configuration list for PBXNativeTarget "CollisionsTests" */;
-			buildPhases = (
-				39A3677117EA579500DE09FD /* Sources */,
-				39A3677217EA579500DE09FD /* Frameworks */,
-				39A3677317EA579500DE09FD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				39A3677B17EA579500DE09FD /* PBXTargetDependency */,
-			);
-			name = CollisionsTests;
-			productName = CollisionsTests;
-			productReference = 39A3677517EA579500DE09FD /* CollisionsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,11 +180,6 @@
 				CLASSPREFIX = DAW;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "SSD Boot Admin";
-				TargetAttributes = {
-					39A3677417EA579500DE09FD = {
-						TestTargetID = 39A3674C17EA579500DE09FD;
-					};
-				};
 			};
 			buildConfigurationList = 39A3674817EA579500DE09FD /* Build configuration list for PBXProject "Collisions" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -231,7 +195,6 @@
 			projectRoot = "";
 			targets = (
 				39A3674C17EA579500DE09FD /* Collisions */,
-				39A3677417EA579500DE09FD /* CollisionsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,18 +204,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39A3679417EA57FD00DE09FD /* spaceship.png in Resources */,
+				39A3679517EA57FD00DE09FD /* spark.png in Resources */,
 				39A3675D17EA579500DE09FD /* InfoPlist.strings in Resources */,
+				39A3679117EA57FD00DE09FD /* exhaust.sks in Resources */,
 				39A3677017EA579500DE09FD /* Images.xcassets in Resources */,
-				39A3676E17EA579500DE09FD /* Spaceship.png in Resources */,
+				39A3679317EA57FD00DE09FD /* missile.sks in Resources */,
+				39A3679217EA57FD00DE09FD /* explosion.sks in Resources */,
+				39A367A017EA6DD500DE09FD /* damage.sks in Resources */,
 				39A3676617EA579500DE09FD /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39A3677317EA579500DE09FD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39A3678117EA579500DE09FD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,29 +224,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				39A3676917EA579500DE09FD /* DAWViewController.m in Sources */,
+				39A3679B17EA584800DE09FD /* APLShipSprite.m in Sources */,
 				39A3675F17EA579500DE09FD /* main.m in Sources */,
+				39A3679C17EA584800DE09FD /* APLSpaceScene.m in Sources */,
 				39A3676317EA579500DE09FD /* DAWAppDelegate.m in Sources */,
-				39A3676C17EA579500DE09FD /* DAWMyScene.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39A3677117EA579500DE09FD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39A3678317EA579500DE09FD /* CollisionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		39A3677B17EA579500DE09FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 39A3674C17EA579500DE09FD /* Collisions */;
-			targetProxy = 39A3677A17EA579500DE09FD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		39A3675B17EA579500DE09FD /* InfoPlist.strings */ = {
@@ -303,14 +248,6 @@
 				39A3676517EA579500DE09FD /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		39A3677F17EA579500DE09FD /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39A3678017EA579500DE09FD /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,46 +349,6 @@
 			};
 			name = Release;
 		};
-		39A3678A17EA579500DE09FD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Collisions.app/Collisions";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Collisions/Collisions-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "CollisionsTests/CollisionsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		39A3678B17EA579500DE09FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Collisions.app/Collisions";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Collisions/Collisions-Prefix.pch";
-				INFOPLIST_FILE = "CollisionsTests/CollisionsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -469,14 +366,6 @@
 			buildConfigurations = (
 				39A3678717EA579500DE09FD /* Debug */,
 				39A3678817EA579500DE09FD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		39A3678917EA579500DE09FD /* Build configuration list for PBXNativeTarget "CollisionsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39A3678A17EA579500DE09FD /* Debug */,
-				39A3678B17EA579500DE09FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

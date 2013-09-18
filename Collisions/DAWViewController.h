@@ -10,5 +10,6 @@
 #import <SpriteKit/SpriteKit.h>
 
 @interface DAWViewController : UIViewController
+@property (weak, nonatomic) IBOutlet SKView *skView;
 
 @end
