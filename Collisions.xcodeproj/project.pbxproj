@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391F6C2417EB9D2000E137ED /* APLShipSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F6C2117EB9D2000E137ED /* APLShipSprite.m */; };
+		391F6C2517EB9D2000E137ED /* APLSpaceScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F6C2317EB9D2000E137ED /* APLSpaceScene.m */; };
+		391F6C2E17EB9DF700E137ED /* damage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 391F6C2717EB9DF700E137ED /* damage.sks */; };
+		391F6C2F17EB9DF700E137ED /* exhaust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 391F6C2817EB9DF700E137ED /* exhaust.sks */; };
+		391F6C3017EB9DF700E137ED /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 391F6C2917EB9DF700E137ED /* explosion.sks */; };
+		391F6C3117EB9DF700E137ED /* LTV X14 59.png in Resources */ = {isa = PBXBuildFile; fileRef = 391F6C2A17EB9DF700E137ED /* LTV X14 59.png */; };
+		391F6C3217EB9DF700E137ED /* missile.sks in Resources */ = {isa = PBXBuildFile; fileRef = 391F6C2B17EB9DF700E137ED /* missile.sks */; };
+		391F6C3317EB9DF700E137ED /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 391F6C2C17EB9DF700E137ED /* spaceship.png */; };
+		391F6C3417EB9DF700E137ED /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 391F6C2D17EB9DF700E137ED /* spark.png */; };
 		39A3675117EA579500DE09FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A3675017EA579500DE09FD /* Foundation.framework */; };
 		39A3675317EA579500DE09FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A3675217EA579500DE09FD /* CoreGraphics.framework */; };
 		39A3675517EA579500DE09FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A3675417EA579500DE09FD /* UIKit.framework */; };
@@ -17,19 +26,21 @@
 		39A3676617EA579500DE09FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A3676417EA579500DE09FD /* Main.storyboard */; };
 		39A3676917EA579500DE09FD /* DAWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A3676817EA579500DE09FD /* DAWViewController.m */; };
 		39A3677017EA579500DE09FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A3676F17EA579500DE09FD /* Images.xcassets */; };
-		39A3679117EA57FD00DE09FD /* exhaust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39A3678C17EA57FD00DE09FD /* exhaust.sks */; };
-		39A3679217EA57FD00DE09FD /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39A3678D17EA57FD00DE09FD /* explosion.sks */; };
-		39A3679317EA57FD00DE09FD /* missile.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39A3678E17EA57FD00DE09FD /* missile.sks */; };
-		39A3679417EA57FD00DE09FD /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A3678F17EA57FD00DE09FD /* spaceship.png */; };
-		39A3679517EA57FD00DE09FD /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A3679017EA57FD00DE09FD /* spark.png */; };
-		39A3679B17EA584800DE09FD /* APLShipSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A3679817EA584800DE09FD /* APLShipSprite.m */; };
-		39A3679C17EA584800DE09FD /* APLSpaceScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A3679A17EA584800DE09FD /* APLSpaceScene.m */; };
-		39A367A017EA6DD500DE09FD /* damage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39A3679F17EA6DD500DE09FD /* damage.sks */; };
-		39C30BD417EB8D9400F070B6 /* LTV X14 59.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C30BD317EB8D9400F070B6 /* LTV X14 59.png */; };
 		39C30BD617EB9A2400F070B6 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 39C30BD517EB9A2400F070B6 /* ReadMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		391F6C2017EB9D2000E137ED /* APLShipSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLShipSprite.h; sourceTree = "<group>"; };
+		391F6C2117EB9D2000E137ED /* APLShipSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLShipSprite.m; sourceTree = "<group>"; };
+		391F6C2217EB9D2000E137ED /* APLSpaceScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLSpaceScene.h; sourceTree = "<group>"; };
+		391F6C2317EB9D2000E137ED /* APLSpaceScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLSpaceScene.m; sourceTree = "<group>"; };
+		391F6C2717EB9DF700E137ED /* damage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = damage.sks; sourceTree = "<group>"; };
+		391F6C2817EB9DF700E137ED /* exhaust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = exhaust.sks; sourceTree = "<group>"; };
+		391F6C2917EB9DF700E137ED /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		391F6C2A17EB9DF700E137ED /* LTV X14 59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTV X14 59.png"; sourceTree = "<group>"; };
+		391F6C2B17EB9DF700E137ED /* missile.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = missile.sks; sourceTree = "<group>"; };
+		391F6C2C17EB9DF700E137ED /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceship.png; sourceTree = "<group>"; };
+		391F6C2D17EB9DF700E137ED /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		39A3674D17EA579500DE09FD /* Collisions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collisions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A3675017EA579500DE09FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		39A3675217EA579500DE09FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,17 +57,6 @@
 		39A3676817EA579500DE09FD /* DAWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAWViewController.m; sourceTree = "<group>"; };
 		39A3676F17EA579500DE09FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		39A3677617EA579500DE09FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		39A3678C17EA57FD00DE09FD /* exhaust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = exhaust.sks; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/exhaust.sks"; sourceTree = "<group>"; };
-		39A3678D17EA57FD00DE09FD /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = explosion.sks; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/explosion.sks"; sourceTree = "<group>"; };
-		39A3678E17EA57FD00DE09FD /* missile.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = missile.sks; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/missile.sks"; sourceTree = "<group>"; };
-		39A3678F17EA57FD00DE09FD /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spaceship.png; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/spaceship.png"; sourceTree = "<group>"; };
-		39A3679017EA57FD00DE09FD /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/spark.png"; sourceTree = "<group>"; };
-		39A3679717EA584800DE09FD /* APLShipSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLShipSprite.h; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/APLShipSprite.h"; sourceTree = "<group>"; };
-		39A3679817EA584800DE09FD /* APLShipSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLShipSprite.m; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/APLShipSprite.m"; sourceTree = "<group>"; };
-		39A3679917EA584800DE09FD /* APLSpaceScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLSpaceScene.h; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/APLSpaceScene.h"; sourceTree = "<group>"; };
-		39A3679A17EA584800DE09FD /* APLSpaceScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLSpaceScene.m; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/APLSpaceScene.m"; sourceTree = "<group>"; };
-		39A3679F17EA6DD500DE09FD /* damage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = damage.sks; path = "../SpriteKit_Physics_Collisions/SpriteKit Physics Collisions/damage.sks"; sourceTree = "<group>"; };
-		39C30BD317EB8D9400F070B6 /* LTV X14 59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTV X14 59.png"; sourceTree = "<group>"; };
 		39C30BD517EB9A2400F070B6 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,12 +75,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		391F6C1F17EB9D2000E137ED /* APL classes */ = {
+			isa = PBXGroup;
+			children = (
+				391F6C2017EB9D2000E137ED /* APLShipSprite.h */,
+				391F6C2117EB9D2000E137ED /* APLShipSprite.m */,
+				391F6C2217EB9D2000E137ED /* APLSpaceScene.h */,
+				391F6C2317EB9D2000E137ED /* APLSpaceScene.m */,
+			);
+			path = "APL classes";
+			sourceTree = "<group>";
+		};
+		391F6C2617EB9DF700E137ED /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				391F6C2717EB9DF700E137ED /* damage.sks */,
+				391F6C2817EB9DF700E137ED /* exhaust.sks */,
+				391F6C2917EB9DF700E137ED /* explosion.sks */,
+				391F6C2A17EB9DF700E137ED /* LTV X14 59.png */,
+				391F6C2B17EB9DF700E137ED /* missile.sks */,
+				391F6C2C17EB9DF700E137ED /* spaceship.png */,
+				391F6C2D17EB9DF700E137ED /* spark.png */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
 		39A3674417EA579500DE09FD = {
 			isa = PBXGroup;
 			children = (
 				39C30BD517EB9A2400F070B6 /* ReadMe.txt */,
 				39A3675817EA579500DE09FD /* Collisions */,
-				39A3679D17EA584F00DE09FD /* Physics Collisions */,
 				39A3674F17EA579500DE09FD /* Frameworks */,
 				39A3674E17EA579500DE09FD /* Products */,
 			);
@@ -109,11 +133,13 @@
 		39A3675817EA579500DE09FD /* Collisions */ = {
 			isa = PBXGroup;
 			children = (
+				391F6C2617EB9DF700E137ED /* Art */,
 				39A3676117EA579500DE09FD /* DAWAppDelegate.h */,
 				39A3676217EA579500DE09FD /* DAWAppDelegate.m */,
 				39A3676417EA579500DE09FD /* Main.storyboard */,
 				39A3676717EA579500DE09FD /* DAWViewController.h */,
 				39A3676817EA579500DE09FD /* DAWViewController.m */,
+				391F6C1F17EB9D2000E137ED /* APL classes */,
 				39A3676F17EA579500DE09FD /* Images.xcassets */,
 				39A3675917EA579500DE09FD /* Supporting Files */,
 			);
@@ -129,32 +155,6 @@
 				39A3676017EA579500DE09FD /* Collisions-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		39A3679617EA580600DE09FD /* Art */ = {
-			isa = PBXGroup;
-			children = (
-				39C30BD317EB8D9400F070B6 /* LTV X14 59.png */,
-				39A3679F17EA6DD500DE09FD /* damage.sks */,
-				39A3678C17EA57FD00DE09FD /* exhaust.sks */,
-				39A3678D17EA57FD00DE09FD /* explosion.sks */,
-				39A3678E17EA57FD00DE09FD /* missile.sks */,
-				39A3678F17EA57FD00DE09FD /* spaceship.png */,
-				39A3679017EA57FD00DE09FD /* spark.png */,
-			);
-			name = Art;
-			sourceTree = "<group>";
-		};
-		39A3679D17EA584F00DE09FD /* Physics Collisions */ = {
-			isa = PBXGroup;
-			children = (
-				39A3679917EA584800DE09FD /* APLSpaceScene.h */,
-				39A3679A17EA584800DE09FD /* APLSpaceScene.m */,
-				39A3679717EA584800DE09FD /* APLShipSprite.h */,
-				39A3679817EA584800DE09FD /* APLShipSprite.m */,
-				39A3679617EA580600DE09FD /* Art */,
-			);
-			name = "Physics Collisions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,16 +210,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39A3679417EA57FD00DE09FD /* spaceship.png in Resources */,
-				39A3679517EA57FD00DE09FD /* spark.png in Resources */,
-				39C30BD417EB8D9400F070B6 /* LTV X14 59.png in Resources */,
+				391F6C3417EB9DF700E137ED /* spark.png in Resources */,
+				391F6C2F17EB9DF700E137ED /* exhaust.sks in Resources */,
 				39A3675D17EA579500DE09FD /* InfoPlist.strings in Resources */,
-				39A3679117EA57FD00DE09FD /* exhaust.sks in Resources */,
+				391F6C3317EB9DF700E137ED /* spaceship.png in Resources */,
+				391F6C3117EB9DF700E137ED /* LTV X14 59.png in Resources */,
+				391F6C3217EB9DF700E137ED /* missile.sks in Resources */,
 				39A3677017EA579500DE09FD /* Images.xcassets in Resources */,
-				39A3679317EA57FD00DE09FD /* missile.sks in Resources */,
 				39C30BD617EB9A2400F070B6 /* ReadMe.txt in Resources */,
-				39A3679217EA57FD00DE09FD /* explosion.sks in Resources */,
-				39A367A017EA6DD500DE09FD /* damage.sks in Resources */,
+				391F6C3017EB9DF700E137ED /* explosion.sks in Resources */,
+				391F6C2E17EB9DF700E137ED /* damage.sks in Resources */,
 				39A3676617EA579500DE09FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,10 +232,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39A3676917EA579500DE09FD /* DAWViewController.m in Sources */,
-				39A3679B17EA584800DE09FD /* APLShipSprite.m in Sources */,
 				39A3675F17EA579500DE09FD /* main.m in Sources */,
-				39A3679C17EA584800DE09FD /* APLSpaceScene.m in Sources */,
+				391F6C2417EB9D2000E137ED /* APLShipSprite.m in Sources */,
 				39A3676317EA579500DE09FD /* DAWAppDelegate.m in Sources */,
+				391F6C2517EB9D2000E137ED /* APLSpaceScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

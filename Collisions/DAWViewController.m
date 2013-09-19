@@ -55,7 +55,14 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-#pragma mark - Button Actions
+#pragma mark - Actions
+
+//--------------------------
+- (IBAction)resetScene:(id)sender {
+    self.scene = [APLSpaceScene sceneWithSize:self.skView.bounds.size];
+	[self.skView presentScene:self.scene transition:[SKTransition flipVerticalWithDuration:0.35]];
+}
+
 //--------------------------
 - (IBAction)leftAction:(id)sender {
 	[self.scene leftAction:sender];
