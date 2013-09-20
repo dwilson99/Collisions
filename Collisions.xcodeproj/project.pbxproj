@@ -133,13 +133,13 @@
 		39A3675817EA579500DE09FD /* Collisions */ = {
 			isa = PBXGroup;
 			children = (
-				391F6C2617EB9DF700E137ED /* Art */,
 				39A3676117EA579500DE09FD /* DAWAppDelegate.h */,
 				39A3676217EA579500DE09FD /* DAWAppDelegate.m */,
 				39A3676417EA579500DE09FD /* Main.storyboard */,
 				39A3676717EA579500DE09FD /* DAWViewController.h */,
 				39A3676817EA579500DE09FD /* DAWViewController.m */,
 				391F6C1F17EB9D2000E137ED /* APL classes */,
+				391F6C2617EB9DF700E137ED /* Art */,
 				39A3676F17EA579500DE09FD /* Images.xcassets */,
 				39A3675917EA579500DE09FD /* Supporting Files */,
 			);
